@@ -13,7 +13,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>wget -O build.xml https://raw.github.com/wulff/phing-drupal-module-template/develop/build.xml</command>
+      <command>wget -O build.xml https://raw.github.com/wulff/phing-drupal-static-analysis/develop/build.xml</command>
     </hudson.tasks.Shell>
     <hudson.plugins.phing.PhingBuilder>
       <buildFile>build.xml</buildFile>
